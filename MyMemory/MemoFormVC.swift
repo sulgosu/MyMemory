@@ -28,7 +28,7 @@ class MemoFormVC: UIViewController, UIImagePickerControllerDelegate, UINavigatio
         }
         
         let data = MemoData()
-        data.title =  self.subject
+//        data.title =  self.subject
         data.contents = self.contents.text
         data.image = self.preview.image
         data.regdate = Date()
